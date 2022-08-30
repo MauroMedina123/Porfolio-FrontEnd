@@ -1,0 +1,30 @@
+.row {
+    margin-bottom: 10px;
+}
+#Titulo {
+    position: relative;
+    text-align: center;
+    width: 160px;
+    background-color: yellowgreen;
+    font-family: italic;
+}
+#Texto {
+    background-color: aliceblue;
+    border: 2px solid red;
+}
+/** media queries **/
+@media (max-width: 767.5px) {
+    #Titulo {
+        margin-top: 1px;
+        left: 35%;
+    }
+    #Texto {
+        padding: 5px;
+        text-align: center;
+    }
+}
+@media (max-width: 575.5px) {
+    #Titulo {
+        left: 33%;
+    }
+}
